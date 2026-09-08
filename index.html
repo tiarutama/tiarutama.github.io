@@ -1,249 +1,255 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tiar Utama — Junior Network Engineer portfolio. Practical networking labs in routing, switching and security.">
+  <title>Profile - Tiar</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#top"><span>Ichtiar</span> Setya Utama<span>.</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#labs">Labs</a>
+        <a href="#tools">Tools</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="menu-btn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </nav>
+  </header>
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-        
-        <!--=============== REMIX ICONS ===============-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <main id="top">
+    <section class="hero">
+      <div class="hero-grid"></div>
+      <div class="hero-orbit" aria-hidden="true">
+        <svg viewBox="0 0 600 340" role="presentation">
+          <g class="orbit-lines">
+            <ellipse cx="300" cy="175" rx="185" ry="72"></ellipse>
+            <ellipse cx="300" cy="175" rx="185" ry="72" transform="rotate(62 300 175)"></ellipse>
+            <ellipse cx="300" cy="175" rx="185" ry="72" transform="rotate(-62 300 175)"></ellipse>
+          </g>
+          <g class="globe">
+            <ellipse cx="300" cy="175" rx="112" ry="112"></ellipse>
+            <ellipse cx="300" cy="175" rx="112" ry="43"></ellipse>
+            <ellipse cx="300" cy="175" rx="112" ry="72"></ellipse>
+            <ellipse cx="300" cy="175" rx="43" ry="112"></ellipse>
+            <ellipse cx="300" cy="175" rx="72" ry="112"></ellipse>
+          </g>
+          <g class="nodes">
+            <circle cx="115" cy="105" r="4"></circle>
+            <circle cx="472" cy="115" r="4"></circle>
+            <circle cx="500" cy="250" r="4"></circle>
+            <circle cx="190" cy="295" r="3"></circle>
+            <circle cx="405" cy="278" r="3"></circle>
+          </g>
+        </svg>
+      </div>
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+      <div class="hero-content container">
+        <h1>JUNIOR<br><span>NETWORK ENGINEER</span><b>.</b></h1>
+        <p>Building practical experience in computer networking,<br class="desktop-only">
+          routing, switching, infrastructure, and network security.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#labs">EXPLORE MY LABS <span>→</span></a>
+          <a class="btn btn-outline" href="#contact">CONTACT ME</a>
+        </div>
+      </div>
 
-        <title>Mini Portfolio</title>
-    </head>
-    <body>
-        <!--=============== HEADER ===============-->
-        <header class="profile container">
-            <!-- Theme button -->
-            <i class="ri-moon-line change-theme" id="theme-button"></i>
+      <div class="terminal-status" aria-hidden="true">
+        <span>&gt; Routing...</span>
+        <span>&gt; Switching...</span>
+        <span>&gt; Security...</span>
+        <span>&gt; Infrastructure...</span>
+        <span>&gt; Ready.</span>
+      </div>
+    </section>
 
-            <div class="profile__container grid">
-                <div class="profile__data">
-                    <div class="profile__border">
-                        <div class="profile__perfil">
-                            <!-- Insert your image, according to the example size of the portfolio -->
-                            <img src="assets/img/perfil.png" alt="">
-                        </div>
-                    </div>
-
-                    <h2 class="profile__name">Ichtiar Setya Utama</h2>
-                    <h3 class="profile__profession">Junior Web Developer</h3>
-
-                    <ul class="profile__social">
-                        <a href="https://www.instagram.com/tiarutama/" target="_blank" class="profile__social-link">
-                            <i class="ri-instagram-line"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/tiarutama712/" target="_blank" class="profile__social-link">
-                            <i class="ri-linkedin-box-line"></i>
-                        </a>
-                        <a href="https://github.com/tiarutama/" target="_blank" class="profile__social-link">
-                            <i class="ri-github-line"></i>
-                        </a>
-                    </ul>
-                </div>
-
-                <div class="profile__info grid">
-                    <div class="profile__info-group">
-                        <h3 class="profile__info-number">3.42</h3>
-                        <p class="profile__info-description">
-                            GPA
-                        </p>
-                    </div>
-                    <!-- <div class="profile__info-group">
-                        <h3 class="profile__info-number">+124</h3>
-                        <p class="profile__info-description">
-                            Completed <br> projects
-                        </p>
-                    </div>
-                    <div class="profile__info-group">
-                        <h3 class="profile__info-number">96</h3>
-                        <p class="profile__info-description">Satisfied <br> customers</p>
-                    </div> -->
-                </div>
-
-                
-
-                <div class="profile__info grid">
-                    <div class="profile__info-group">
-                    </div>
-                    <div class="profile__info-group">
-                        <h3 class="profile__info-number">" Hello, My name is Tiar and I'm currently living in Tangerang.</h3>
-                        <h3 class="profile__info-number">I'm a fresh graduate, but i have experience with web development. "</h3>
-                    </div>
-                    <div class="profile__info-group">
-                    </div>
-                </div>
-
-                <div class="profile__buttons">
-                    <!-- Insert your CV -->
-                    <a download="" href="assets/pdf/CVprog.pdf" class="button" target="_blank">
-                        Download CV <i class="ri-download-line"></i>
-                    </a>
-
-                    <div class="profile__buttons-small">
-                        <p class="profile__info-description">Contact Me</p>
-                        <!-- Insert a real number plus country code -->
-                        <a href="https://api.whatsapp.com/send?phone=085921494054&text=Hello, more information!" target="_blank" class="button button__small button__gray">
-                            <i class="ri-whatsapp-line"></i>
-                        </a>
-                        <!-- Insert your brand name or profile -->
-                        <a href="https://m.me/tiarutama" target="_blank" class="button button__small button__gray">
-                            <i class="ri-messenger-line"></i>
-                        </a>
-                    </div>
-                </div>
+    <section id="skills" class="section skills-section">
+      <div class="container section-row">
+        <div class="section-heading">
+          <div class="eyebrow">01 / EXPERTISE</div>
+          <h2>Networking Skills</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon">⌁</div>
+            <div>
+              <div class="card-number">01</div>
+              <h3>Routing</h3>
+              <p>Static Routing, OSPF, BGP and routing fundamentals.</p>
             </div>
-        </header>
+          </article>
 
-        <!--=============== MAIN ===============-->
-        <main class="main">
-            <section class="filters container">
-                <!--=============== FILTERS TABS ===============-->
-                <ul class="filters__content">
-                    <button class="filters__button filter-tab-active" data-target="#skills">
-                        Skills
-                    </button>
-                    <button class="filters__button" data-target="#projects">
-                        Projects
-                    </button>
-                </ul>
+          <article class="skill-card">
+            <div class="skill-icon">≋</div>
+            <div>
+              <div class="card-number">02</div>
+              <h3>Switching</h3>
+              <p>VLAN, trunking, access ports and Inter-VLAN Routing.</p>
+            </div>
+          </article>
 
-                <div class="filters__sections">
-                    <!--=============== SKILLS ===============-->
-                    <div class="skills__content grid filters__active" data-content id="skills">
-                        <div class="skills__area">
-                            <h3 class="skills__title">Frontend Developer</h3>
-    
-                            <div class="skills__box">
-                                <div class="skills__group">
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">HTML</h3>
-                                        </div>
-                                    </div>
-        
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">CSS</h3>
-                                        </div>
-                                    </div>
-        
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">JavaScript</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="skills__group">
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">React</h3>
-                                        </div>
-                                    </div>
-        
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">Bootstrap</h3>
-                                        </div>
-                                    </div>
-        
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">Git</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+          <article class="skill-card">
+            <div class="skill-icon shield">◇</div>
+            <div>
+              <div class="card-number">03</div>
+              <h3>Security</h3>
+              <p>ACL, firewall concepts, NAT and secure remote access.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-                        <div class="skills__area">
-                            <h3 class="skills__title">Backend Developer</h3>
-    
-                            <div class="skills__box">
-                                <div class="skills__group">
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">PHP</h3>
-                                        </div>
-                                    </div>
-        
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">MySQL</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--=============== PROJECTS ===============-->
-                    <div class="projects__content grid" data-content id="projects">
-                        <article class="projects__card">
-                            <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
-                            <img src="assets/img/project1.jpg" alt="" class="projects__img">
+    <section id="about" class="section about-section">
+      <div class="container about-grid">
+        <div class="profile-frame">
+          <div class="profile-glow"></div>
+          <div class="corner corner-tl"></div>
+          <div class="corner corner-tr"></div>
+          <div class="corner corner-bl"></div>
+          <div class="corner corner-br"></div>
+          <div class="profile-side-label">NETWORK<br>ENGINEER</div>
+          <div class="profile-status">IN PROGRESS</div>
+          <img src="assets/images/profile.png" alt="Tiar Utama" class="profile-photo">
+        </div>
 
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">Web</span>
-                                    <h3 class="projects__title">Payment Site</h3>
-                                    <a href="#" class="projects__button button button__small">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
+        <div class="about-content">
+          <div class="eyebrow">03 / PROFILE</div>
+          <h2>About Me</h2>
+          <p>I am a dedicated and motivated individual who is currently developing my skills in computer networking and IT infrastructure through hands on practice and continuous learning.</p>
+          <p>My focus includes Cisco networking, routing, switching, network security, Linux, and network troubleshooting.</p>
+          <div class="profile-meta">
+            <span><i>♙</i> Junior Network Engineer</span>
+            <span><i>⌖</i> Indonesia</span>
+            <span><i>✉</i> Available for Opportunities</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                        <!-- <article class="projects__card">
-                            <img src="assets/img/project2.jpg" alt="" class="projects__img">
+    <section id="labs" class="section labs-section">
+      <div class="container">
+        <div class="labs-header">
+          <div>
+            <div class="eyebrow">02 / HANDS-ON</div>
+            <h2>Network Labs</h2>
+          </div>
+          <a href="#labs" class="view-all">View All Labs <span>→</span></a>
+        </div>
 
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">Web</span>
-                                    <h3 class="projects__title">Portfolio website</h3>
-                                    <a href="#" class="projects__button button button__small">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </article> -->
-                    </div>
+        <div class="labs-grid">
+          <article class="lab-card">
+            <div class="lab-visual">
+              <svg viewBox="0 0 320 120" aria-hidden="true">
+                <path d="M55 60 L160 28 L265 60" class="net-line"></path>
+                <path d="M55 60 L160 92 L265 60" class="net-line"></path>
+                <g class="router"><circle cx="55" cy="60" r="16"></circle><text x="55" y="65">R1</text></g>
+                <g class="router"><circle cx="160" cy="28" r="16"></circle><text x="160" y="33">R2</text></g>
+                <g class="router"><circle cx="265" cy="60" r="16"></circle><text x="265" y="65">R3</text></g>
+              </svg>
+            </div>
+            <div class="lab-body">
+              <div class="lab-tag">ROUTING</div>
+              <div class="lab-title">OSPF Multi-Router Network <span>→</span></div>
+              <div class="lab-tech">Cisco Packet Tracer&nbsp; · &nbsp;OSPF&nbsp; · &nbsp;Routing</div>
+            </div>
+          </article>
 
-                </div>
-            </section>
-        </main>
+          <article class="lab-card">
+            <div class="lab-visual">
+              <svg viewBox="0 0 320 120" aria-hidden="true">
+                <path d="M45 40 L110 60 L210 60 L275 40" class="net-line"></path>
+                <path d="M45 85 L110 60 M210 60 L275 85" class="net-line"></path>
+                <rect x="132" y="43" width="56" height="34" rx="4" class="switch-box"></rect>
+                <circle cx="50" cy="40" r="12" class="pc"></circle><circle cx="50" cy="85" r="12" class="pc"></circle>
+                <circle cx="270" cy="40" r="12" class="pc"></circle><circle cx="270" cy="85" r="12" class="pc"></circle>
+                <text x="10" y="18">VLAN 10</text><text x="245" y="18">VLAN 20</text>
+              </svg>
+            </div>
+            <div class="lab-body">
+              <div class="lab-tag">SWITCHING</div>
+              <div class="lab-title">VLAN &amp; Inter-VLAN Routing <span>→</span></div>
+              <div class="lab-tech">Cisco Packet Tracer&nbsp; · &nbsp;VLAN&nbsp; · &nbsp;Trunk</div>
+            </div>
+          </article>
 
-        <!--=============== FOOTER ===============-->
-        <footer class="footer container">
-            <span class="footer__copy">
-                &#169; tiarutama.
-            </span>
-        </footer>
+          <article class="lab-card">
+            <div class="lab-visual">
+              <svg viewBox="0 0 320 120" aria-hidden="true">
+                <g class="router"><circle cx="50" cy="60" r="17"></circle><text x="50" y="65">R1</text></g>
+                <path d="M68 60 L112 60" class="net-line"></path>
+                <path d="M208 60 L252 60" class="net-line"></path>
+                <path d="M112 60 C120 42 135 42 144 60 C153 78 168 78 176 60 C185 42 200 42 208 60" class="cloud-line"></path>
+                <g class="router"><circle cx="270" cy="60" r="17"></circle><text x="270" y="65">R2</text></g>
+                <text x="100" y="30">AS 65001</text><text x="207" y="30">AS 65002</text>
+              </svg>
+            </div>
+            <div class="lab-body">
+              <div class="lab-tag">ROUTING</div>
+              <div class="lab-title">BGP Routing Lab <span>→</span></div>
+              <div class="lab-tech">Cisco Packet Tracer&nbsp; · &nbsp;BGP&nbsp; · &nbsp;Peering</div>
+            </div>
+          </article>
 
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src="assets/js/scrollreveal.min.js"></script>
+          <article class="lab-card">
+            <div class="lab-visual">
+              <svg viewBox="0 0 320 120" aria-hidden="true">
+                <rect x="28" y="42" width="38" height="27" rx="3" class="pc-screen"></rect>
+                <path d="M47 69 V78 M37 80 H57" class="pc-base"></path>
+                <path d="M70 55 L122 55" class="net-line"></path>
+                <rect x="122" y="32" width="58" height="48" rx="5" class="firewall"></rect>
+                <path d="M136 42 H165 M136 52 H165 M136 62 H165 M136 72 H165" class="firewall-line"></path>
+                <path d="M180 55 L235 55" class="net-line"></path>
+                <path d="M252 38 C240 38 235 50 243 56 C235 64 242 77 253 75 C260 86 276 81 276 69 C287 67 287 49 276 46 C274 36 259 33 252 38Z" class="cloud"></path>
+              </svg>
+            </div>
+            <div class="lab-body">
+              <div class="lab-tag">SECURITY</div>
+              <div class="lab-title">NAT &amp; Network Security <span>→</span></div>
+              <div class="lab-tech">Cisco Packet Tracer&nbsp; · &nbsp;NAT&nbsp; · &nbsp;ACL</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <section id="tools" class="section tools-section">
+      <div class="container">
+        <div class="eyebrow">04 / TOOLKIT</div>
+        <h2>Tools &amp; Technologies</h2>
+        <div class="tools-list">
+          <span>Cisco IOS</span><span>Packet Tracer</span><span>PNETLab</span>
+          <span>Linux</span><span>Git</span><span>VS Code</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-inner">
+        <div>
+          <div class="eyebrow">05 / CONTACT</div>
+          <h2>Let's connect.</h2>
+          <p>Interested in networking, infrastructure, or technical opportunities? Feel free to get in touch.</p>
+        </div>
+        <a class="contact-email" href="mailto:isangasteruz@gmail.com">isangasteruz@gmail.com <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>© 2026 TIAR.</span>
+      <span>NETWORK / INFRASTRUCTURE / SECURITY</span>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
 </html>
