@@ -75,17 +75,19 @@ button { font: inherit; }
 .hero h1 span { color: #c7ccca; }
 .hero h1 b { color: var(--green); }
 .hero p { margin: 0; color: #b5bbb8; font-size: 14px; line-height: 1.55; letter-spacing: .01em; }
-.hero-actions { display:flex; gap:16px; margin-top:16px; }
+.hero-actions { margin-top: 20px; display:flex; gap: 14px; flex-wrap: wrap; }
 .btn {
   height: 37px; display:inline-flex; align-items:center; justify-content:center;
   padding:0 20px; font:700 11px var(--mono); letter-spacing:.04em;
-  border:1px solid var(--green); transition:.2s;
+  border:1px solid var(--green); transition:.2s; gap: 10px;
 }
 .btn-primary { background:var(--green); color:#071006; }
 .btn-primary:hover { transform:translateY(-2px); box-shadow:0 8px 28px rgba(140,255,102,.15); }
 .btn-primary span { margin-left:14px; font-size:15px; }
 .btn-outline { color:var(--green); }
 .btn-outline:hover { background:var(--green-soft); }
+.whatsapp-btn { font-size: 0.75rem; }
+.whatsapp-btn svg { width: 18px; height: 18px; }
 
 .hero-orbit {
   position:absolute; z-index:1; width:530px; height:300px; right:80px; top:18px; opacity:.85;
